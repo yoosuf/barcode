@@ -108,9 +108,4 @@ class BarcodeManager
     {
         return new Drivers\PicqerHtmlDriver;
     }
-
-    protected function createQrcodeDriver(string $name, array $config): BarcodeDriver
-    {
-        return new Drivers\BaconQrCodeDriver;
-    }
 }

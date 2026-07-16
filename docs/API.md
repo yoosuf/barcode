@@ -7,7 +7,7 @@ Namespace: `Yoosuf\Barcode\Facades\Barcode`
 ### render
 
 - Signature: `render(string $value, ?string $driver = null, array $options = []): BarcodeResult`
-- Description: Generates barcode/QR content using resolved driver.
+- Description: Generates barcode content using the resolved driver.
 
 ### dataUri
 
@@ -55,7 +55,6 @@ Namespace: `Yoosuf\Barcode\Contracts\BarcodeDriver`
 - `svg`
 - `png`
 - `html`
-- `qrcode`
 
 ## Common Render Options
 
@@ -64,8 +63,3 @@ Namespace: `Yoosuf\Barcode\Contracts\BarcodeDriver`
 - `type` (default: `TYPE_CODE_128`)
 - `width` (default: 2)
 - `height` (default: 60)
-
-### QR Driver
-
-- `size` (default: 300)
-- `margin` (default: 10)

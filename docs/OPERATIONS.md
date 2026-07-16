@@ -16,7 +16,7 @@
 
 - Validate and sanitize user-provided barcode values.
 - Apply authorization before exposing barcode endpoints.
-- Avoid returning sensitive payloads in public QR codes.
+- Avoid returning sensitive payloads in public barcodes.
 
 ## Observability
 

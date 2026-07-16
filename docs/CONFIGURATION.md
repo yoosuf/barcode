@@ -18,8 +18,6 @@ Config file: `config/barcode.php`
 - `BARCODE_WIDTH_FACTOR`
 - `BARCODE_HEIGHT`
 - `BARCODE_FOREGROUND_COLOR`
-- `BARCODE_QR_SIZE`
-- `BARCODE_QR_MARGIN`
 
 ## Merge Precedence
 
@@ -43,11 +41,6 @@ return [
         'svg' => ['driver' => 'svg'],
         'png' => ['driver' => 'png'],
         'html' => ['driver' => 'html'],
-        'qrcode' => [
-            'driver' => 'qrcode',
-            'size' => (int) env('BARCODE_QR_SIZE', 300),
-            'margin' => (int) env('BARCODE_QR_MARGIN', 10),
-        ],
     ],
 ];
 ```

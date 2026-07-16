@@ -18,7 +18,7 @@
 - `Contracts\BarcodeDriver`
   - Shared driver interface for all barcode generators.
 - `Drivers\*`
-  - Concrete implementations for SVG, PNG, HTML, and QR.
+  - Concrete implementations for SVG, PNG, and HTML barcode output.
 - `Support\BarcodeResult`
   - Output container with mime type and extension metadata.
 - `Support\BarcodeType`

@@ -8,6 +8,6 @@ All notable changes to this package will be documented in this file.
 
 - Initial package scaffold with Laravel auto-discovery.
 - Driver-based manager architecture.
-- Built-in drivers: SVG, PNG, HTML, and QR.
+- Built-in drivers: SVG, PNG, and HTML.
 - Result container and barcode type constants.
 - Publishable configuration and usage documentation.

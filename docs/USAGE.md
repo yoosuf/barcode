@@ -43,13 +43,18 @@ return response($result->contents)
     ->header('Content-Disposition', 'attachment; filename="so-1001.'.$result->extension.'"');
 ```
 
-## QR Example
+## CLI
 
-```php
-$qr = Barcode::render('https://example.com/orders/SO-1001', 'qrcode', [
-    'size' => 320,
-    'margin' => 8,
-]);
+Generate a barcode from Artisan and save it to disk:
+
+```bash
+php artisan barcode:generate SO-1001 --driver=svg --output=storage/app/barcodes/so-1001.svg
+```
+
+Print SVG or HTML output directly to the terminal:
+
+```bash
+php artisan barcode:generate SO-1001 --driver=svg
 ```
 
 ## Error Handling

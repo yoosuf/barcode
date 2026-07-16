@@ -1,16 +1,19 @@
 {
   "name": "yoosuf/barcode",
-  "description": "Production-ready Laravel barcode and QR code package with pluggable drivers, filesystem support, and API-friendly outputs.",
+  "description": "Production-ready Laravel barcode package with pluggable drivers, filesystem support, and API-friendly outputs.",
   "type": "library",
   "version": "1.0.0",
   "keywords": [
     "laravel",
     "barcode",
     "laravel-package",
-    "qr-code",
     "code128",
     "ean13",
     "upc",
+    "code39",
+    "code93",
+    "itf14",
+    "msi",
     "codabar",
     "generator",
     "svg",
@@ -32,8 +35,7 @@
   "require": {
     "php": "^8.1",
     "illuminate/support": "^10.0|^11.0|^12.0",
-    "picqer/php-barcode-generator": "^2.4",
-    "bacon/bacon-qr-code": "^3.0"
+    "picqer/php-barcode-generator": "^2.4"
   },
   "autoload": {
     "psr-4": {

@@ -23,10 +23,5 @@ return [
             'driver' => 'html',
         ],
 
-        'qrcode' => [
-            'driver' => 'qrcode',
-            'size' => (int) env('BARCODE_QR_SIZE', 300),
-            'margin' => (int) env('BARCODE_QR_MARGIN', 10),
-        ],
     ],
 ];
